@@ -1,0 +1,29 @@
+Fitting cycle: 329
+Fitting parameters: (np.float64(1674.6984054741617), np.float64(1116.4947305247686), np.float64(1305.483884513571), np.float64(195.7116167902902), np.float64(0.9916698152562373), np.float64(0.6028352215226862), np.float64(2.5101331989339006), np.float64(0.015591611633315263), np.float64(0.08025927916277657), np.float64(6.658149547032374e-06), np.float64(4.2134528065928665), np.float64(0.001154622858763595))
+Number of full switching cycles: 10
+Number of full on-off cycles: 400.0
+Number of full off-on cycles: 400.0
+Minimum recommended dt [µs]: 128.2051282051282
+Time step for calculation (dt) [µs]: 128.2051282051282
+Number of points per EMCCD frame: 156
+Used t_ON_OFF due to integer # of elementary dt  : 40.0
+Used t_OFF_ON due to integer # of elementary dt  : 40.0
+Number of treated EMCCD frames during experiment: 8000
+Processing cycles: 100%|██████████| 10/10 [01:30<00:00,  9.04s/it]
+Fitted parameters (popt): [1.67469841e+03 1.11649473e+03 1.30548388e+03 1.95711617e+02
+ 9.91669815e-01 6.02835222e-01 2.51013320e+00 1.55916116e-02
+ 8.02592792e-02 6.65814955e-06 4.21345281e+00 1.15460796e-03]
+Initial fitted_parameters: [[1.0e+03 1.0e+00]
+ [1.0e+03 1.0e+00]
+ [1.0e+03 1.0e+00]
+ [2.0e+02 1.0e+00]
+ [2.1e-01 1.0e+00]
+ [1.1e-01 1.0e+00]
+ [6.8e-01 1.0e+00]
+ [4.0e-03 1.0e+00]
+ [4.0e-03 1.0e+00]
+ [5.0e-05 1.0e+00]
+ [0.0e+00 1.0e+00]
+ [0.0e+00 1.0e+00]]
+Indices for updating (self.w_variables): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+An error occurred in fit_DARKONOFF function: shape mismatch: value array of shape (12,) could not be broadcast to indexing result of shape (12,2)
