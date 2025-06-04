@@ -10,6 +10,7 @@ V1: _ This version takes calculate the kinetic model for Pink taking into accoun
 the frametime (Cmos recording time) and the the addtime (time without fluorescence recording)
 _ Considering a revision for the thermal recovery calculation
 _ This version fit the following model : DARK=>ON<->OFF
+_ Versionning on GitHub 
 
 
 """
